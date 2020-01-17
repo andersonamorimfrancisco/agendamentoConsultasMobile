@@ -1,10 +1,12 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import * as Styles from './styles';
 
-const Main = () => (
-  <View>
-    <Text>Ok</Text>
-  </View>
+interface MainProps {}
+
+const Main = ({}: MainProps) => (
+  <Styles.container>
+    <Styles.Text>Main</Styles.Text>
+  </Styles.container>
 );
 
 export default Main;
