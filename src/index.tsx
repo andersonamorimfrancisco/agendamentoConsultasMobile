@@ -1,8 +1,8 @@
 import React from 'react';
 import Main from './pages/Main';
 
-const App = () => {
-  return <Main />;
-};
+interface AppProps {}
+
+const App = ({}: AppProps) => <Main />;
 
 export default App;
